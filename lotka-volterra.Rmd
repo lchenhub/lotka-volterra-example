@@ -43,10 +43,10 @@ Solving the Lotke-Volterra equation:
 
 ```{r}
 # Create a sequence of times (days): 
-time <- seq(0, 25, by = 0.05)
+time <- seq(0, 30, by = 0.5)
 
 # Set some parameter values (these can change - keep it in mind):
-parameters <- c(alpha = .75, beta = 0.8, delta = 0.5, gamma = 1)
+parameters <- c(alpha = .25, beta = 0.5, delta = 0.5, gamma = 2)
 
 # Set the initial condition (prey and predator populations at t = 0).
 # Recall: x = prey, y = predator
@@ -82,5 +82,7 @@ What happens as you change the different parameters (and re-run the entire code 
 
 -   $\alpha$ is a growth rate for prey
 -   $\gamma$ is a mortality rate for predator
+
+### I CHANGED SOMETHING
 
 ## End
